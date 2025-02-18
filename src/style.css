@@ -39,7 +39,6 @@
     box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* Global Styles */
 * {
     margin: 0;
     padding: 0;
@@ -55,10 +54,9 @@
     align-items: center;
     height: 100vh;
     min-height: 100vh;
-    overflow: hidden; /* Evita scrolls desnecessários */
+    overflow: hidden; 
   }
-  
-  /* Container */
+
   .container {
     background-color: #fff;
     padding: 40px 50px;
@@ -68,8 +66,7 @@
     max-width: 500px;
     animation: fadeIn 0.5s ease-out;
   }
-  
-  /* Heading */
+
   h1 {
     text-align: center;
     color: #333;
@@ -79,13 +76,11 @@
     letter-spacing: 1px;
     text-transform: uppercase;
   }
-  
-  /* Form Group */
+
   .form-group {
     margin-bottom: 20px;
   }
-  
-  /* Labels */
+
   label {
     font-size: 16px;
     font-weight: 600;
@@ -94,8 +89,7 @@
     margin-bottom: 10px;
     transition: all 0.3s ease;
   }
-  
-  /* Inputs */
+
   input,
   textarea,
   select {
@@ -116,13 +110,11 @@
     outline: none;
     box-shadow: 0 0 10px rgba(78, 115, 223, 0.3);
   }
-  
-  /* Textarea */
+
   textarea {
     min-height: 120px;
   }
-  
-  /* Input Validation */
+
   input:invalid,
   textarea:invalid,
   select:invalid {
@@ -134,8 +126,7 @@
     font-size: 12px;
     margin-top: 5px;
   }
-  
-  /* Button */
+
   button {
     background-color: #4e73df;
     color: white;
@@ -151,15 +142,13 @@
   button:hover {
     background-color: #2e59d9;
   }
-  
-  /* Loading/Error States */
+
   p {
     text-align: center;
     font-size: 16px;
     color: #888;
   }
-  
-  /* Animation for fade-in effect */
+
   @keyframes fadeIn {
     from {
       opacity: 0;
@@ -170,4 +159,5 @@
       transform: translateY(0);
     }
   }
+  
   
