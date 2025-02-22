@@ -1,7 +1,10 @@
 import React from "react";
 import { Modal, ModalHeader, ModalBody, ModalFooter, Button } from "reactstrap";
 
+    
 const ModalConfirmacao = ({ isOpen, toggle, formData, confirmarEnvio, fadeIn }) => {
+    
+
     return (
         <Modal isOpen={isOpen} toggle={toggle} fade={fadeIn}>
             <ModalHeader toggle={toggle}>Confirme seus dados</ModalHeader>
@@ -18,6 +21,7 @@ const ModalConfirmacao = ({ isOpen, toggle, formData, confirmarEnvio, fadeIn }) 
             
         </Modal>
     );
+    
 };
 
 export default ModalConfirmacao;
